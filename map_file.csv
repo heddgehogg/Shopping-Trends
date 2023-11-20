@@ -1,0 +1,11 @@
+Customer ID,Age,Gender,Item Purchased,Category,Purchase Amount (USD),Location,Size,Color,Season,Review Rating,Payment Method,Shipping Type,Previous Purchases,Preferred Payment Method,Frequency of Purchases,Customer Segmentation,Seasonal Trends,Delivery Time,Number of Items Purchased,X,Y,Code
+3169,31,Female,Jeans,Clothing,24,Montana,M,Orange,Spring,2.9,Bank Transfer,2-Day Shipping,14,PayPal,Fortnightly,VIP,Pre-fall shopping,14,9,37.8393,-84.27,MT
+3728,41,Female,Socks,Clothing,83,Maine,M,Gold,Summer,3.5,Credit Card,Next Day Air,17,Debit Card,Bi-Weekly,Loyal,Christmas present,6,9,42.4072,-71.3824,ME
+3362,47,Female,Shoes,Footwear,26,Florida,M,Silver,Spring,4.1,Credit Card,Free Shipping,47,Credit Card,Bi-Weekly,New,Summer preperation,2,9,43.8041,-120.5542,FL
+1852,28,Male,Skirt,Clothing,80,Delaware,S,Lavender,Fall,3.1,Venmo,Free Shipping,4,Bank Transfer,Fortnightly,Loyal,Christmas present,19,9,35.0078,-97.0929,DE
+1374,18,Male,Gloves,Accessories,40,Virginia,L,Turquoise,Winter,2.6,Credit Card,Store Pickup,6,Cash,Quarterly,New,Christmas present,28,9,40.4173,-82.9071,VA
+2631,29,Male,Skirt,Clothing,82,Maine,S,Pink,Spring,4.2,Bank Transfer,Free Shipping,20,Cash,Quarterly,Loyal,Christmas present,24,9,41.4925,-99.9018,ME
+1855,25,Male,Sweater,Clothing,61,Kentucky,M,Teal,Spring,3.8,Credit Card,Express,49,Credit Card,Annually,Loyal,Pre-fall shopping,14,9,43.1939,-71.5724,KY
+1366,28,Male,Handbag,Accessories,69,Indiana,M,Magenta,Winter,4.5,PayPal,Store Pickup,18,Bank Transfer,Fortnightly,New,Pre-fall shopping,24,9,40.6331,-89.3985,IN
+390,27,Male,Boots,Footwear,42,Virginia,L,Purple,Spring,4.2,Venmo,Standard,28,Bank Transfer,Monthly,VIP,Summer preperation,3,9,63.5888,-154.4931,VA
+3645,35,Female,Blouse,Clothing,32,Arkansas,M,Violet,Winter,2.6,Cash,Next Day Air,18,Venmo,Weekly,VIP,Christmas present,15,9,31.9686,-99.9018,AR
