@@ -4,8 +4,7 @@ import streamlit as st
 # page settings
 st.set_page_config(page_title='Shopping Trends',
                    page_icon=':necktie:',
-                   layout='wide',
-                   primaryColor="#9b67e2"
+                   layout='wide'
                    )
 
 df = pd.read_csv('/Users/julie/Downloads/Shopping_Trends.csv')
