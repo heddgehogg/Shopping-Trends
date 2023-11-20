@@ -7,7 +7,7 @@ st.set_page_config(page_title='Shopping Trends',
                    layout='wide'
                    )
 
-df = pd.read_csv('/Users/julie/Downloads/Shopping_Trends.csv')
+df = pd.read_csv('Shopping_Trends.csv')
 
 st.title(':necktie: Shopology: Decoding Customer Shopping Trends')
 
