@@ -3,6 +3,11 @@
 def main():
     import pandas as pd
     import streamlit as st
+    import pandas as pd
+    import streamlit as st
+    import plotly.express as px
+    import folium
+    from streamlit_folium import st_folium
 
     # page settings
     st.set_page_config(page_title='Shopping Trends',
@@ -64,10 +69,7 @@ def main():
                  unsafe_allow_html=True)
 
     elif page == 'Items Info':
-        import pandas as pd
-        import streamlit as st
-        import plotly.express as px
-
+    
         df = pd.read_csv('Shopping_Trends.csv')
 
         st.title(':bar_chart: Sales Dashboard')
@@ -189,11 +191,6 @@ def main():
         right_column.plotly_chart(size_graph, use_container_width=True)
 
     elif page == 'Location':
-        import pandas as pd
-        import streamlit as st
-        import plotly.express as px
-        import folium
-        from streamlit_folium import st_folium
 
         df = pd.read_csv('Shopping_Trends.csv')
 
@@ -279,9 +276,7 @@ def main():
         st.plotly_chart(fig)
 
     elif page == 'Payment Methods':
-        import pandas as pd
-        import streamlit as st
-        import plotly.express as px
+        
 
         df = pd.read_csv('Shopping_Trends.csv')
 
