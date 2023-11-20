@@ -5,7 +5,6 @@ import streamlit as st
 st.set_page_config(page_title='Shopping Trends',
                    page_icon=':necktie:',
                    layout='wide',
-                   base="light",
                    primaryColor="#9b67e2"
                    )
 
