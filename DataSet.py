@@ -1,14 +1,12 @@
-
+import pandas as pd
+import streamlit as st
+import pandas as pd
+import streamlit as st
+import plotly.express as px
+import folium
+from streamlit_folium import st_folium
 
 def main():
-    import pandas as pd
-    import streamlit as st
-    import pandas as pd
-    import streamlit as st
-    import plotly.express as px
-    import folium
-    from streamlit_folium import st_folium
-
     # page settings
     st.set_page_config(page_title='Shopping Trends',
                        page_icon=':necktie:',
