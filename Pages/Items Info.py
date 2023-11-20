@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-df = pd.read_csv('/Users/julie/Downloads/Shopping_Trends.csv')
+df = pd.read_csv('Shopping_Trends.csv')
 
 st.title(':bar_chart: Sales Dashboard')
 st.markdown('##')
