@@ -17,7 +17,7 @@ def main():
                                  'Payment Methods'])
     if page == 'DataSet':
 
-        df = pd.read_csv('/Users/julie/Downloads/Shopping_Trends.csv')
+        df = pd.read_csv('Shopping_Trends.csv')
 
         st.title(':necktie: Shopology: Decoding Customer Shopping Trends')
 
@@ -68,7 +68,7 @@ def main():
         import streamlit as st
         import plotly.express as px
 
-        df = pd.read_csv('/Users/julie/Downloads/Shopping_Trends.csv')
+        df = pd.read_csv('Shopping_Trends.csv')
 
         st.title(':bar_chart: Sales Dashboard')
         st.markdown('##')
@@ -195,7 +195,7 @@ def main():
         import folium
         from streamlit_folium import st_folium
 
-        df = pd.read_csv('/Users/julie/Downloads/Shopping_Trends.csv')
+        df = pd.read_csv('Shopping_Trends.csv')
 
         st.title(':bar_chart: Sales Dashboard')
         st.markdown('##')
@@ -262,7 +262,7 @@ def main():
         st.write("Here you can explore and uncover insights into the spending habits of different states across the "
                  "United States. Dive into the data to find 8 states that lead the way in terms of purchase expenditures. ")
 
-        df_map = pd.read_csv('/Users/julie/Downloads/map_file.csv')
+        df_map = pd.read_csv('map_file.csv')
 
         st.dataframe(df_map)
 
@@ -283,7 +283,7 @@ def main():
         import streamlit as st
         import plotly.express as px
 
-        df = pd.read_csv('/Users/julie/Downloads/Shopping_Trends.csv')
+        df = pd.read_csv('Shopping_Trends.csv')
 
         st.title(':bar_chart: Sales Dashboard')
         st.markdown('##')
