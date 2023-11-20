@@ -6,13 +6,13 @@ import plotly.express as px
 import folium
 from streamlit_folium import st_folium
 
-def main():
-    # page settings
-    st.set_page_config(page_title='Shopping Trends',
+st.set_page_config(page_title='Shopping Trends',
                        page_icon=':necktie:',
                        layout='wide',
                        )
-
+def main():
+    # page settings
+    
     page = st.sidebar.selectbox('Choose a page:',
                                 ['DataSet',
                                  'Items Info',
