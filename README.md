@@ -9,6 +9,7 @@ ____
 
 ## Data Dictionary
 Here's a breakdown of the variables in the Shopping Trends Dataset:
+
 📌 Customer ID - Unique identifier for each customer.
 
 📌 Age - Age of the customer.
